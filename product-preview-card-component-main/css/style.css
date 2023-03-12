@@ -1,0 +1,95 @@
+*{
+    
+    box-sizing : border-box;
+}
+
+body{
+    margin:0;
+    padding:0;
+    background-color: hsl(30, 38%, 92%);
+    
+}
+main{
+
+    margin: auto;
+    width: 43%;
+        margin-top: 175px;
+    margin-bottom: 175px;
+    margin-left: 420;
+    margin-right: 420;
+    
+}
+
+.container{
+    display : flex;
+    flex-direction: row;
+    
+    
+}
+.container2{
+    
+    display : flex;
+    flex-direction: row;
+    gap:21px;
+    
+}
+
+.card .img1{
+    width: 302px;
+    height: 449px;
+    border-radius: 9.5px 0  0 9.5px ;
+     
+}
+
+.cart {
+    padding: 34px;
+    background-color: hsl(0, 0%, 100%);
+    width: 302px;
+    height: 449px;
+    border-radius:  0 9.5px 9.5px 0 ;
+}
+p.about{
+    line-height: 20px;
+}
+.cart .about , p{
+    /* up - down */
+    
+    margin-top:0px;
+    color:rgb(111, 110, 110);
+    font-size: 14px;
+    text-align : left;
+    font-family: 'Montserrat', sans-serif;
+}
+h1{
+    font-family: 'Fraunces', serif;
+}
+.price{
+    color:#3D8168;
+    font-size: 32px;
+    font-weight : bolder;
+    font-family: 'Fraunces', serif;
+}
+.mrp{
+    margin: auto;
+    width: 43%;
+    color:rgb(111, 110, 110);
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: line-through;
+    text-align: center;
+    
+}
+button{
+    width: 235px;
+    height: 48px;
+    background-color: #3D8168;
+    border-radius :6px;
+    border:#3D8168;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    color:white;
+}
+button:hover {
+    background-color: #1A4031;
+ }
+
